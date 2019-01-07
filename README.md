@@ -33,7 +33,6 @@
     <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
   </a>
 </p>
-``` javascript
 <table><tbody>
     <tr>
         <th>方法说明</th><th>颜色名称</th><th>颜色</th>
@@ -49,7 +48,3 @@
         <td bgcolor="Pink">rgb(255, 192, 203)</td>
     </tr>
 </table>
-<font face="黑体">我是黑体字</font>
-<font face="微软雅黑">我是微软雅黑</font>
-<font face="STCAIYUN">我是华文彩云</font>
-```
