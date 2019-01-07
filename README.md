@@ -38,7 +38,7 @@
         <th>方法说明</th><th>颜色名称</th><th>颜色</th>
     </tr>
     <tr>
-        <td><span color="Hotpink">此处实现方法利用 CSDN-markdown 内嵌 html 语言的优势</span></td>
+        <td><span style="color:#f00">此处实现方法利用 CSDN-markdown 内嵌 html 语言的优势</span></td>
         <td><font color="Hotpink">Hotpink</font></td>
         <td color="#f00">rgb(240, 248, 255)</td>
     </tr>
