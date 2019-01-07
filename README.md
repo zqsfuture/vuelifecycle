@@ -38,9 +38,9 @@
         <th>方法说明</th><th>颜色名称</th><th>颜色</th>
     </tr>
     <tr>
-        <td><font color="Hotpink">此处实现方法利用 CSDN-markdown 内嵌 html 语言的优势</font></td>
+        <td><span color="Hotpink">此处实现方法利用 CSDN-markdown 内嵌 html 语言的优势</span></td>
         <td><font color="Hotpink">Hotpink</font></td>
-        <td bgcolor="Hotpink">rgb(240, 248, 255)</td>
+        <td color="#f00">rgb(240, 248, 255)</td>
     </tr>
     <tr>
         <td><font color="Pink">借助 table, tr, td 等表格标签的 bgcolor 属性实现背景色设置</font></td>
