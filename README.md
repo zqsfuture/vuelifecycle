@@ -1,50 +1,7 @@
-# 这是一级标题 #
-## 这是二级标题
-### 这是三级标题
-#### 这是四级标题
-##### 这是五级标题
-###### 这是六级标题
-``` javascript
-  function fun(){
-    echo "这是一句非常牛逼的代码";
-  }
-  fun();
-```
-<p align="center">
-  <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-2.5.10-brightgreen.svg" alt="vue">
-  </a>
-  <a href="https://github.com/ElemeFE/element">
-    <img src="https://img.shields.io/badge/element--ui-2.3.2-brightgreen.svg" alt="element-ui">
-  </a>
-  <a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
-    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/releases">
-    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
-  </a>
-  <a href="https://gitter.im/vue-element-admin/discuss">
-    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="gitter">
-  </a>
-  <a href="https://panjiachen.gitee.io/vue-element-admin-site/zh/donate">
-    <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
-  </a>
-</p>
-<table><tbody>
-    <tr>
-        <th>方法说明</th><th>颜色名称</th><th>颜色</th>
-    </tr>
-    <tr>
-        <td><span style="color:#f00">此处实现方法利用 CSDN-markdown 内嵌 html 语言的优势</span></td>
-        <td><font color="Hotpink">Hotpink</font></td>
-        <td color="#f00">rgb(240, 248, 255)</td>
-    </tr>
-    <tr>
-        <td><font color="Pink">借助 table, tr, td 等表格标签的 bgcolor 属性实现背景色设置</font></td>
-        <td><font color="pink">AntiqueWhite</font></td>
-        <td bgcolor="Pink">rgb(255, 192, 203)</td>
-    </tr>
-</table>
+# Vue学习之路
+## 安装
+Vue **不支持** IE8 及以下版本，因为 Vue 使用了 IE8 无法模拟的 ECMAScript 5 特性。但它支持所有兼容 ECMAScript 5 的浏览器
+**Vue项目如何做兼容IE8以下的兼容处理？**
+Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的**渐进式框架**。与其它大型框架不同的是，Vue 被设计为可以**自底向上逐层应用**。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。
+**如何理解渐进式和自底向上逐层应用？**
+
