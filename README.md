@@ -195,7 +195,7 @@ vm.userProfile = Object.assign({}, vm.userProfile, {
 ```
 - 上面的代码只传递了未完成的 todos。
 
-- 而如果你的目的是有条件地跳过循环的执行，那么可以将 v-if 置于外层元素 (或 <template>)上。
+<!-- - 而如果你的目的是有条件地跳过循环的执行，那么可以将 v-if 置于外层元素 (或 <template>)上。
 
 ``` html
 <ul v-if="todos.length">
@@ -204,7 +204,7 @@ vm.userProfile = Object.assign({}, vm.userProfile, {
   </li>
 </ul>
 <p v-else>No todos left!</p>
-```
+``` -->
 
 ## 组件基础
 
