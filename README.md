@@ -208,7 +208,7 @@ vm.userProfile = Object.assign({}, vm.userProfile, {
 
 ## 组件基础
 
-**每个组件必须只有一个根元素**
+<!-- **每个组件必须只有一个根元素** -->
 
 ### 在组件上使用 v-model
 
