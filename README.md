@@ -87,7 +87,7 @@ computed: {
 
 - 一般来说，v-if 有更高的切换开销，而 v-show 有更高的初始渲染开销。因此，如果需要非常频繁地切换，则使用 v-show 较好；如果在运行时条件很少改变，则使用 v-if 较好。
 
-##列表渲染
+## 列表渲染
 
 ### 注意事项
 - 由于 JavaScript 的限制，Vue 不能检测以下变动的**数组**：
@@ -197,7 +197,7 @@ vm.userProfile = Object.assign({}, vm.userProfile, {
 
 - 而如果你的目的是有条件地跳过循环的执行，那么可以将 v-if 置于外层元素 (或 <template>)上。如：
 
-``` html
+```
 <ul v-if="todos.length">
   <li v-for="todo in todos">
     {{ todo }}
