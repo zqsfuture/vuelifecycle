@@ -197,18 +197,18 @@ vm.userProfile = Object.assign({}, vm.userProfile, {
 
 - 而如果你的目的是有条件地跳过循环的执行，那么可以将 v-if 置于外层元素 (或 <template>)上。如：
 
-```
+<!-- ``` html
 <ul v-if="todos.length">
   <li v-for="todo in todos">
     {{ todo }}
   </li>
 </ul>
 <p v-else>No todos left!</p>
-```
+``` -->
 
 ## 组件基础
 
-<!-- **每个组件必须只有一个根元素** -->
+### 每个组件必须只有一个根元素
 
 ### 在组件上使用 v-model
 
